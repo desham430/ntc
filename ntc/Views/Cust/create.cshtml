@@ -1,0 +1,90 @@
+﻿@model ntc.Models.Customer
+
+@{
+    ViewBag.Title = "create";
+}
+
+<h2>create</h2>
+
+<div>
+    <h4>Customer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.custid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.custid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.custname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.custname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.custsal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.custsal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.firstname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.firstname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lastname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lastname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.confirmemail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.confirmemail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.password)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
