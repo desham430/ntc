@@ -26,5 +26,10 @@ namespace ntc.Controllers
 
             return View();
         }
+
+        public ActionResult Employeeinfo()
+        {
+            return View();
+        }
     }
 }

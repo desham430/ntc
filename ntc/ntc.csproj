@@ -190,6 +190,7 @@
     <Content Include="Views\Cust\custdetails.cshtml" />
     <Content Include="Views\Cust\razorpractice.cshtml" />
     <Content Include="Views\Cust\create.cshtml" />
+    <Content Include="Views\Home\Employeeinfo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

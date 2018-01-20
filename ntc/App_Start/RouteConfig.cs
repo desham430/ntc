@@ -16,7 +16,7 @@ namespace ntc
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "CustController", action = "create", id = UrlParameter.Optional }
+                defaults: new { controller = "HomeController", action = "Employeeinfo", id = UrlParameter.Optional }
             );
         }
     }

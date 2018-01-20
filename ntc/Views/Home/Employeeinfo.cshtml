@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Employeeinfo";
+}
+
+<h2>Employeeinfo</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <div>
+            @Html.Label("enter employee name")
+        </div>
+        <div>
+
+            @Html.Editor("ename")
+        </div>
+        <div>
+
+            @Html.Label("city")
+        </div>
+        <div>
+
+            @Html.Editor("cname")
+        </div>
+
+        <input type="submit" />
+    </fieldset>
+    <div>
+        @Html.ActionLink("back to index","Contact")
+    </div>
+}
+
