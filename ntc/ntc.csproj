@@ -193,6 +193,10 @@
     <Content Include="Views\Cust\create.cshtml" />
     <Content Include="Views\Home\Employeeinfo.cshtml" />
     <Content Include="Views\Home\helperdemo.cshtml" />
+    <Content Include="Views\Home\layoutfiles.cshtml" />
+    <Content Include="Views\Home\layoutfile2.cshtml" />
+    <Content Include="Views\Home\referlayout.cshtml" />
+    <Content Include="Views\Home\partialviewdemo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -36,5 +36,30 @@ namespace ntc.Controllers
         {
             return View();
         }
+
+        public ActionResult layoutfiles()
+        {
+
+            return View();
+        }
+
+        public ActionResult layoutfile2()
+        {
+
+            return View();
+
+        }
+        public ActionResult referlayout()
+        {
+
+            return View();
+
+        }
+        public ActionResult partialviewdemo()
+        {
+
+            return View();
+
+        }
     }
 }
