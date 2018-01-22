@@ -148,6 +148,7 @@
     </Compile>
     <Compile Include="Models\CustController.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\html_helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -191,6 +192,7 @@
     <Content Include="Views\Cust\razorpractice.cshtml" />
     <Content Include="Views\Cust\create.cshtml" />
     <Content Include="Views\Home\Employeeinfo.cshtml" />
+    <Content Include="Views\Home\helperdemo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

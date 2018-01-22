@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "helperdemo";
+}
+@using ntc.Models
+<h2>helperdemo</h2>
+<p>
+
+    @html_helper.raj("this is the html helper using static class and static method");
+</p>
+
+ 
+
+@helper raj(string sk) { 
+
+    <label><mark>this is with rajor html</mark></label>
+}
+
+<p>
+
+    @raj("")
+</p>

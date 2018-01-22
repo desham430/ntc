@@ -31,5 +31,10 @@ namespace ntc.Controllers
         {
             return View();
         }
+
+        public ActionResult helperdemo()
+        {
+            return View();
+        }
     }
 }
